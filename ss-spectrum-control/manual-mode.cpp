@@ -88,9 +88,9 @@ void WManualMode::touch(uint16_t x, uint16_t y)
       override = false;
       menu.setMenu(edit_countdown_duration_menu);
    } else {
-      red_line.touch(x, y);
+      // red_line.touch(x, y);
       white_line.touch(x, y);
-      blue_line.touch(x, y);
+      // blue_line.touch(x, y);
       sendManualUpdate();
    }
 }
